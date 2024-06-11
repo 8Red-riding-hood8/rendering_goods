@@ -1,0 +1,52 @@
+@use "presets" as *;
+
+.category {
+    margin: 0 3% 0 3%;
+    
+    &__header,
+    &__text {
+        font-weight: bold;
+    }
+
+    &__header {
+        font-size: $line-height-large;
+        margin: 20px 0 10px 0;
+    }
+
+    &__header,
+    &__text,
+    &__title {
+        font-family: $primery-font-family;
+    }
+
+    &__boxes {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0 20px 0;
+        border-bottom: dashed rgba(180, 180, 180, 0.603);
+    }
+
+    &__box {
+        background-color: rgba(180, 180, 180, 0.603);
+        width: 30%;
+        margin: 10px;
+        border-radius: 2%;
+    }
+
+    &__img {
+        display: block;
+        margin: 20px auto;
+        width: 30%;
+        padding: 10px;
+        
+    }
+
+    &__title {
+        margin: 0 10% 20px;
+    }
+
+    &__name,
+    &__price {
+        margin: 4px 0;
+    }
+}

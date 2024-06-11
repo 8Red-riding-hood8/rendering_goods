@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+.category {
+  margin: 0 3% 0 3%;
+}
+.category__header, .category__text {
+  font-weight: bold;
+}
+.category__header {
+  font-size: 25px;
+  margin: 20px 0 10px 0;
+}
+.category__header, .category__text, .category__title {
+  font-family: "Quicksand", sans-serif;
+}
+.category__boxes {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 20px 0;
+  border-bottom: dashed rgba(180, 180, 180, 0.603);
+}
+.category__box {
+  background-color: rgba(180, 180, 180, 0.603);
+  width: 30%;
+  margin: 10px;
+  border-radius: 2%;
+}
+.category__img {
+  display: block;
+  margin: 20px auto;
+  width: 30%;
+  padding: 10px;
+}
+.category__title {
+  margin: 0 10% 20px;
+}
+.category__name, .category__price {
+  margin: 4px 0;
+}/*# sourceMappingURL=style.css.map */
