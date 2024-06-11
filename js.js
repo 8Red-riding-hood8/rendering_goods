@@ -106,7 +106,7 @@ goods.forEach(element => {
         renderArr. push(
             `<div class="category__box">
                 <div class ="category__image">
-                    <img class="category__img" src="../src/images/${obj.type}.svg" alt="${obj.type}">
+                    <img class="category__img" src="src/images/${obj.type}.svg" alt="${obj.type}">
                 </div>
                 <div class="category__title">
                     <p class="category__name">Name: <span class="category__text">${obj.type}</span></p>
